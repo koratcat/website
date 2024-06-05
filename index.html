@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>KoratCat</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <h2 class="m-0 text-primary-korat" id="home">KoratCat</h2>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#token" class="nav-item nav-link">Tokenomics</a>
+                <a href="#roadmap" class="nav-item nav-link">Roadmap</a>
+            </div>
+            <div class="h-100 d-lg-inline-flex align-items-center d-none">
+                <a class="btn btn-square rounded-circle bg-light button-primary-korat me-2" href=""><i
+                        class="fab fa-telegram-f"></i></a>
+                <a class="btn btn-square rounded-circle bg-light button-primary-korat me-2" href="https://x.com/koratcatai"><i
+                        class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid hero-header py-5 mb-5" id="about">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-3 animated slideInDown">Where Elegance Meets Crypto</h1>
+                    <p class="animated slideInDown">KoratCat emerges as a delightful fusion of timeless elegance and modern cryptocurrency innovation. Inspired by the grace and charm of the Korat cat breed, KoratCoin embodies a community-driven vision to revolutionize the crypto space.</p>
+                    <a href="" class="btn btn-primary py-3 px-4 animated slideInDown">Purchase</a>
+                </div>
+                <div class="col-lg-6 animated fadeIn">
+                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/preview.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+    <hr size="1" />
+
+    <!-- About Start -->
+    <div class="container-fluid py-6 token" id="token">
+        <div class="container">
+            <div class="row g-8 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="img/token.png" alt="">
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <h3 class="display-6 token-header">Tokenomics</h3>
+                        <div class="d-flex align-items-center mb-2 tokenomics-item">
+                            <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>40% Liquidity</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-2 tokenomics-item">
+                            <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>40% Airdrop</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-4 tokenomics-item">
+                            <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>20% Marketing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <hr size="1" />
+    <!-- Roadmap Start -->
+    <div class="container-fluid py-5 roadmap" id="roadmap">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">Roadmap</h1>
+            </div>
+            <div class="owl-carousel roadmap-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Phase 1</h5>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Website & Social Media Launch</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>TGE, DEx Listing & LP Lock</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Birdeye/DEXScreener/DEXTools Update</span>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Phase 2</h5>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Airdrop Active Wallets</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Initial Marketing Campaigns</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Tokenomics & Roadmap Release</span>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Phase 3</h5>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>First Meme Contest</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Coingecko & CMC Listing</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Partnership with Top Projects</span>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Phase 4</h5>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Top-tier CEx Listing</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Liquidity Bootstrap: Kamino Vault</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Mr. Moon Collection Launch - 5000 NFT</span>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Phase 5</h5>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>KoratCat DAO Operations Commence</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Staking to Earn Memecoins</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Airdrop $KoratCat for NFT Holders</span>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Phase 6</h5>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>$KoratCat Integration with Other Projects</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Launchpad for Memecoins</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Staking to Vote on Launchpad</span>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Phase 7</h5>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>NFT Airdrop for loyal Solcaters</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>AI Chat-Trading Bot: Conversation Meet Trade</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Advanced NFT & DeFi Feature</span>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>Phase 8</h5>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>IRL Event at Solana Hackerhouse & Solana Breakpoints</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                        <span>Global Outreach & Adoption Initiatives</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Roadmap End -->
+
+
+    <!-- Token Sale Start -->
+    <div class="container-fluid bg-light py-5 my-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">Token Sale</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-12 text-center py-4">
+                    <a class="btn btn-primary py-3 px-4" href="">Buy Token</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Token Sale Start -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DDVZTVH1QL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DDVZTVH1QL');
+</script>
+</body>
+
+</html>
